@@ -50,7 +50,7 @@ const getPortfolioItems = () => {
           description: 'Dette visitkort er lavet til virksomheden OK Rens.',
           image: image5,
           tech: 'Illustrator, InDesign',
-          category: 'visitkort'
+          category: 'businesscard'
         }  
       ])
 

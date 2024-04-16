@@ -8,11 +8,12 @@
 
 body {
   font-family: 'Roboto', 'Segoe UI', sans-serif;
-  color: #333;
+  color: #004f4d !important;
+
 }
-/* .btn {
-  --color: #CCD5C6;
-  --color2: rgb(10, 25, 30);
+.btn {
+  --color: #004f4d;
+  --color2: #004f4d;
   padding: 0.8em 1.75em;
   background-color: transparent;
   border-radius: 6px;
@@ -24,7 +25,6 @@ body {
   z-index: 1;
   font-weight: 300;
   font-size: 17px;
-  font-family: 'Roboto', 'Segoe UI', sans-serif;
   text-transform: uppercase;
   color: var(--color);
  }
@@ -64,4 +64,4 @@ body {
  .btn:active {
   filter: brightness(.7);
   transform: scale(.98);
- } */
+ }
