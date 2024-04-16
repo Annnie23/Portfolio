@@ -1,7 +1,6 @@
 <template>
     <main>
-      <h1 class="text-3xl font-bold underline">
-      </h1>
+      
   
       <button @click="selectedCategory = 'infographic'">Infographic</button>
       <button @click="selectedCategory = 'web'">Website</button>
@@ -49,27 +48,39 @@
   
   <style lang="scss">
   .card-pot {
-    color: #888;
-    background-color: #004F4d;
+    color: #004F4D;
+    
     padding: 1rem;
     margin: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #004F4D;
   }
 
   h2{
-    color: #888;
+    color: #004F4D;
     font-size: larger;
+    margin-bottom: 10px;
   }
   h3{
-    color: #888;
+    color: #004F4D;
     font-size: large;
+    margin-bottom: 10px;
   }
+  
+   
   
   .web {
     background-color: #004F4D;
   }
   .photo {
     background-color: #004F4D;
+  }
+
+  button {
+    
+    color: #004F4D;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px #004F4D;
   }
  
   </style>

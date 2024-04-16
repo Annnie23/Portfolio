@@ -102,12 +102,12 @@
   justify-content: center; 
   text-align: center; 
   align-content: center;
-  color: #888;
-    background-color: #004F4d;
+  color: #004F4D;
+    
     padding: 1rem;
     margin: 1rem;
     border-radius: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #004F4D;
   }
 
   @media (max-width: 750px) {

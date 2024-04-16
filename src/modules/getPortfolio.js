@@ -6,6 +6,7 @@ import image3 from '@/assets/trapholtweb.png'
 import image4 from '@/assets/hestekraftenweb.png'
 import image5 from '@/assets/OK.png'
 
+
 const getPortfolioItems = () => {
     const portfolioItems = ref([
         
@@ -51,7 +52,7 @@ const getPortfolioItems = () => {
           image: image5,
           tech: 'Illustrator, InDesign',
           category: 'businesscard'
-        }  
+        }
       ])
 
     return { portfolioItems }
