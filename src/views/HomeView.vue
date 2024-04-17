@@ -16,8 +16,10 @@
   <hero class="hero">
 
 <div class="container py-10 ">
-    <h2 class="text-2xl font-bold py-5 text-center">Welcome to my portfolio site</h2>
+  
     <div class="d-grid gap-2 col-6 mx-auto">
+      <img src="../assets/navn.png" class="img-fluid" alt="...">
+      <h2 class="text-2xl font-bold py-5 text-center">Welcome to my portfolio</h2>
       <button class="btn btn-primary" type="button">CV</button>
       <!-- <button class="btn btn-primary" type="button">projects</button> -->
     </div>

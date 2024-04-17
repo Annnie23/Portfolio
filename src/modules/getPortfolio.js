@@ -13,7 +13,7 @@ const getPortfolioItems = () => {
         {
           id: 1,
           title: 'Hestekraften hjemmeside',
-          description: 'Denne hjemmeside er lavet i forbindelse med en obligatorisk opgave på 1. semester.',
+          description: 'This website was created as part of a mandatory assignment in the 1st semester.',
           image: image4,
           tech: 'HTML, CSS, Bootstrap, JavaScript',
           link: 'https://annnie23.github.io/index.html',
@@ -22,7 +22,7 @@ const getPortfolioItems = () => {
         {
           id: 2,
           title: 'Trapholt hjemmeside',
-          description: 'Denne hjemmeside er lavet i forbindelse med et eksamensprojekt på 1. semester.',
+          description: 'This website was created as part of an exam project in the 1st semester.',
           image: image3,
           tech: 'HTML, CSS, Bootstrap, JavaScript',
           link: 'https://museum-trapholt.dk/',
@@ -31,7 +31,7 @@ const getPortfolioItems = () => {
         {
           id: 3,
           title: 'International Day',
-          description: 'Denne poster er lavet i forbindelse med International Day på EASV.',
+          description: 'This poster was created in connection with International Day at EASV.',
           tech: 'Illustrator, InDesign',
           image: image1,
           category: 'infographic'
@@ -40,7 +40,7 @@ const getPortfolioItems = () => {
         {
           id: 4,
           title: 'Trapholt',
-          description: 'Denne poster er lavet i forbindelse med et eksamensprojekt på 1. semester.',
+          description: 'This poster was created as part of an exam project in the 1st semester.',
           image: image2,
           tech: 'Illustrator, InDesign',
           category: 'infographic'
@@ -48,7 +48,7 @@ const getPortfolioItems = () => {
         {
           id: 5,
           title: 'OK Rens',
-          description: 'Dette visitkort er lavet til virksomheden OK Rens.',
+          description: 'This business card is made for the company OK Rens. OBS. only the frontpage is displayed here',
           image: image5,
           tech: 'Illustrator, InDesign',
           category: 'businesscard'

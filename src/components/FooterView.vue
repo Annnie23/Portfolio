@@ -1,7 +1,7 @@
 <template>
     <div class="footer-card text-center">
   <div class="card-header">
-    Thanks for visiting my portfolio site!
+    Thanks for visiting my portfolio
   </div>
   <div class="card-body">
    

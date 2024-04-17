@@ -88,6 +88,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 .bg-white {
     background-color: #1f2024;
   }
@@ -96,20 +98,21 @@ export default {
     display: flex;
     flex-direction: column;
     color: #f4f4f4;  
-    padding: 2rem; /* Increased padding */
-    margin: 2rem; /* Increased margin */
-    border-radius: 0px;
-    box-shadow: 0 0 5px #b0b8b7;
+    padding: 1rem; 
+    border-radius: 0%;
   }
 
   .about {
     width: 100%;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 0 5px #99a5a5;
   }
 
   .about h1 {
     font-size: 2.5em; /* Increased font size */
     margin-bottom: 20px; /* Increased margin */
-    color: #f4f4f4; /* Added color */
+    color: #004f4d; /* Added color */
   }
 
   .about h2 {
@@ -134,7 +137,7 @@ export default {
 .profile img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 15%;
   margin-right: 20px;
 }
 
@@ -191,6 +194,8 @@ export default {
   margin-bottom: 20px;
   
 }
+
+
 </style>
 
 
