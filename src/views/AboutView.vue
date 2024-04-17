@@ -1,11 +1,19 @@
 <template>
   <div>
-    about
+
   </div>
 </template>
 
-<script setup>
+<script>
+export default {
+  setup () {
+    
+
+    return {}
+  }
+}
 </script>
-  
-<style lang="scss">
+
+<style lang="scss" scoped>
+
 </style>

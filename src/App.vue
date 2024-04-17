@@ -18,5 +18,8 @@ import FooterView from './components/FooterView.vue';
 </script>
 
 <style lang="scss" scoped>
+* {
+  background-color: #1f2024;
+}
 
 </style>

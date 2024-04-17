@@ -26,25 +26,30 @@
 </hero>
 
   <section class="bg-green">
-      <div class="container py-6 flexbox ">
+      <div class="link-container container py-6 flexbox ">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div class="card-home
-              e">
+              <div class="card-home">
+                  <a href="https://github.com/Annnie23">
                   <img class="size-52 rounded" src="../assets/github.png" alt="">
+                  </a>
                   <div class="card-body">
                       <h3 class="text-2xl font-bold">Github</h3>
                       <p>Have a look at my Github, this is where i store all of my development projects.</p>
                   </div>
               </div>
               <div class="card-home">
+                  <a href="https://www.linkedin.com/in/anne-sophie-nielsen/">
                   <img class="size-52 rounded" src="../assets/linkedin.png" alt="">
+                  </a>
                   <div class="card-body">
                       <h3 class="text-2xl font-bold">LinkedIn</h3>
                       <p>Follow me on LinkedIn to see much more about my skills, education and work. </p>
                   </div>
               </div>
               <div class="card-home">
+                  <a href="https://www.youtube.com/watch?v=WFMQ-o4lTuY">
                   <img class="size-52 rounded" src="../assets/youtube.png" alt="">
+                  </a>
                   <div class="card-body">
                       <h3 class="text-2xl font-bold">Video CV</h3>
                       <p>Press play, and let me introduce myself right here in my video cv.</p>  
@@ -60,7 +65,7 @@
 <style>
 
   .hero {
-    background-image: url('../assets/plante.jpeg');
+    background-image: url('../assets/plante.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -87,6 +92,9 @@
   }
 
  
+  .bg-green{
+    background-color: #1f2024;
+  }
 
   .me-card {
     position: absolute;
@@ -102,12 +110,12 @@
   justify-content: center; 
   text-align: center; 
   align-content: center;
-  color: #004F4D;
+  color: #d6eeed;
     
     padding: 1rem;
     margin: 1rem;
     border-radius: 0px;
-    box-shadow: 0 0 10px #004F4D;
+    box-shadow: 0 0 5px #b0b8b7;
   }
 
   @media (max-width: 750px) {

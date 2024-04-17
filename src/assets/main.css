@@ -9,6 +9,7 @@
 body {
   font-family: 'Roboto', 'Segoe UI', sans-serif;
   color: #004f4d !important;
+  background-color: #1f2024 !important;
 
 }
 .btn {
@@ -26,6 +27,32 @@ body {
   font-size: 17px;
   text-transform: uppercase;
   
+ }
+
+ .btn-primary {
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-bg: none;
+  --bs-btn-hover-border-color: none;
+ }
+
+ h2{
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #004f4d;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+ }
+
+ h3{
+  font-size: 2em;
+  font-weight: 300;
+  color: #004f4d;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
  }
  
  
