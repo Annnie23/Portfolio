@@ -60,7 +60,7 @@
   }
 
   .card-pot {
-    flex: 1 0 calc(50% - 2rem);
+    flex: 1 0 calc(50% - 3rem);
     color: #f1f1f1;
     padding: 1rem;
     margin: 1rem;
