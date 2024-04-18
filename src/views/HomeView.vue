@@ -1,18 +1,4 @@
 <template>
-  
-<!--   <div class="hero-image">
-    <img src="../assets/plante.jpeg" class="my-hero-img img-fluid" alt="...">
-
-      <div class="me-card card" style="width: 18rem;">
-      <img src="../assets/mig.png" class="card-img-top" alt="...">
-      <div class="card-body">
-      <h5 class="card-title"><img src="../assets/navn.png" class="img-fluid" alt="..."></h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-      </div>
-  </div>
- -->
   <hero class="hero">
 
 <div class="container py-10 ">
@@ -20,8 +6,8 @@
     <div class="d-grid gap-2 col-6 mx-auto">
       <img src="../assets/navn.png" class="img-fluid" alt="...">
       <h2 class="text-2xl font-bold py-5 text-center">Welcome to my portfolio</h2>
-      <button class="btn btn-primary" type="button">CV</button>
-      <!-- <button class="btn btn-primary" type="button">projects</button> -->
+      <a href="./public/CV.pdf" download="CV.pdf" class="btn btn-primary">Download CV</a>
+
     </div>
 </div>
 
@@ -130,7 +116,7 @@
     .me-card {
       position: static;
       transform: none;
-      margin-top: 20px; /* Adjust as needed */
+      margin-top: 20px;
     }
 }
 

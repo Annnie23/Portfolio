@@ -110,23 +110,22 @@ export default {
   }
 
   .about h1 {
-    font-size: 2.5em; /* Increased font size */
-    margin-bottom: 20px; /* Increased margin */
-    color: #004f4d; /* Added color */
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+    color: #004f4d; 
   }
 
   .about h2 {
-    font-size: 2em; /* Increased font size */
-    margin-top: 30px; /* Increased margin */
-    margin-bottom: 20px; /* Increased margin */
-    color: #f4f4f4; /* Added color */
+    font-size: 2em; 
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    color: #f4f4f4;
   }
 
-  /* New styles for paragraphs and lists */
   .about p, .about ul {
-    font-size: 1.2em; /* Increased font size */
-    line-height: 1.5; /* Increased line height */
-    color: #f4f4f4; /* Added color */
+    font-size: 1.2em; 
+    line-height: 1.5; 
+    color: #f4f4f4;
   }
 
 .profile {

@@ -1,16 +1,16 @@
 <template>
   <main>
     <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-        Select Category
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li><button class="dropdown-item" @click="selectedCategory = 'infographic'">Infographic</button></li>
-        <li><button class="dropdown-item" @click="selectedCategory = 'web'">Website</button></li>
-        <li><button class="dropdown-item" @click="selectedCategory = 'businesscard'">Businesscard</button></li>
-        <li><button class="dropdown-item" @click="selectedCategory = ''">All</button></li>
-      </ul>
-    </div>
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+    Select Category
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><button class="dropdown-item" @click="selectedCategory = 'infographic'">Infographic</button></li>
+    <li><button class="dropdown-item" @click="selectedCategory = 'web'">Website</button></li>
+    <li><button class="dropdown-item" @click="selectedCategory = 'businesscard'">Businesscard</button></li>
+    <li><button class="dropdown-item" @click="selectedCategory = ''">All</button></li>
+  </ul>
+</div>
 
     <div class="portfolio-items">
     <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem" class="card-pot">
@@ -78,10 +78,6 @@
     margin-bottom: 10px;
   }
   
-   
-  
-  
-
   button {
     color: #fbfcfc;
     padding: 1rem;

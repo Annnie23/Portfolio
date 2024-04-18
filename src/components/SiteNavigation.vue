@@ -25,10 +25,8 @@ const handleScroll = () => {
   console.log('Scrolling detected');
 }
 
-// Listen to scroll events
 window.addEventListener('scroll', handleScroll);
 
-// Initially check scroll position
 handleScroll();
 </script>
   
@@ -38,6 +36,7 @@ handleScroll();
   min-height: auto;
   position: relative;
   overflow: visible;
+  box-shadow: 0 0 10px #004F4D;
 }
 
 .sticky {
@@ -54,27 +53,23 @@ handleScroll();
 }
 
   
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity 0.5s ease;
-  }
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s ease;
+}
   
   
 
-    .my-logo-class {
-      filter: none;
-      border-radius: 0%;
-      margin-left: 2%;
+.my-logo-class {
+    filter: none;
+    border-radius: 0%;
+    margin-left: 2%;
 
-    }
+}
 
-    .my-logo-class:hover {
-      filter: drop-shadow(0 0 0.75rem #004f4d);
-    }
+.my-logo-class:hover {
+    filter: drop-shadow(0 0 0.75rem #004f4d);
+}
 
-/* .my-header-class {
-  position: relative;
-  z-index: 2;
-} */
   
 .my-nav-class a{
     color: #004f4d !important;

@@ -17,6 +17,9 @@
     <li class="list-group-item">
         <a href="https://github.com/Annnie23">Github</a>
     </li>
+    <li class="list-group-item">
+        <a href="https://linktr.ee/anne.sophiehgn">Linktree</a>
+    </li>
   </ul>
 </div>
 <div class="card-foot" style="width: 18rem;">
@@ -53,7 +56,7 @@
 
   </div>
   <div class="card-footer text-body-secondary">
-    2024 Copyright: www.asn-portfolio.dk
+    2024 Copyright: https://asn-portfolio.web.app/
   </div>
 </div>
 
@@ -72,7 +75,6 @@
     padding: 1rem;
     margin: 1rem;
     border-radius: 0px;
-    // box-shadow: 0 0 10px #004F4D;
 }
 
 .list-group-item {
@@ -83,7 +85,6 @@
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 0px;
-    // box-shadow: 0 0 5px #cdd4d4;
 }
 
 .footer-card {
@@ -92,7 +93,7 @@
     font-size: x-large;
     padding: 1rem;
     border-radius: 0px;
-    box-shadow: 0 0 5px #cdd4d4;
+    box-shadow: 0 0 10px #004F4D;
 }
 
 .card-footer{

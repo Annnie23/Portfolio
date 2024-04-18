@@ -1,5 +1,3 @@
-<!-- Dynamisk underside, som vises alt efter hvilket portfolio projekt.  -->
-
 <template>
     <div>
         <div v-if="!specificPortfolioItem">
