@@ -50,8 +50,11 @@
 <script setup>
  
 </script>
-<style>
+<style scoped>
 
+.btn {
+  box-shadow: 0 0 5px #99a5a5;
+}
   .hero {
     background-image: url('../assets/plante.jpg');
     background-size: cover;

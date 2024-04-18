@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+  <button class="drop-btn btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
     Select Category
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -53,6 +53,32 @@
   </script>
   
   <style lang="scss">
+
+.dropdown-item{
+  // padding: 0.8em 1.75em;
+  background-color: #004f4d;
+  border-radius: 0px;
+  border: .3px solid #004f4d;
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 17px;
+  color: #f1f1f1;
+
+  &:hover{
+    background-color: #1f2024;
+    color: #f1f1f1;
+    
+  }
+}
+.dropdown-menu{
+background-color: transparent;
+border: none;
+}
+
   .portfolio-items {
     display: flex;
     flex-wrap: wrap;

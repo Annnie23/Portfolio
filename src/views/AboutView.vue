@@ -100,6 +100,7 @@ export default {
     color: #f4f4f4;  
     padding: 1rem; 
     border-radius: 0%;
+    border-color: none;
   }
 
   .about {
