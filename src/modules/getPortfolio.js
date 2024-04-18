@@ -12,7 +12,7 @@ const getPortfolioItems = () => {
         
         {
           id: 1,
-          title: 'Hestekraften hjemmeside',
+          title: 'Hestekraften website',
           description: 'This website was created as part of a mandatory assignment in the 1st semester.',
           image: image4,
           tech: 'HTML, CSS, Bootstrap, JavaScript',
@@ -21,7 +21,7 @@ const getPortfolioItems = () => {
         },
         {
           id: 2,
-          title: 'Trapholt hjemmeside',
+          title: 'Trapholt website',
           description: 'This website was created as part of an exam project in the 1st semester.',
           image: image3,
           tech: 'HTML, CSS, Bootstrap, JavaScript',
@@ -31,7 +31,7 @@ const getPortfolioItems = () => {
         {
           id: 3,
           title: 'International Day',
-          description: 'This poster was created in connection with International Day at EASV.',
+          description: 'This infographic was created in connection with International Day at EASV.',
           tech: 'Illustrator, InDesign',
           image: image1,
           category: 'infographic'
@@ -40,7 +40,7 @@ const getPortfolioItems = () => {
         {
           id: 4,
           title: 'Trapholt',
-          description: 'This poster was created as part of an exam project in the 1st semester.',
+          description: 'This infographic was created as part of an exam project in the 1st semester.',
           image: image2,
           tech: 'Illustrator, InDesign',
           category: 'infographic'
@@ -48,7 +48,7 @@ const getPortfolioItems = () => {
         {
           id: 5,
           title: 'OK Rens',
-          description: 'This business card is made for the company OK Rens. OBS. only the frontpage is displayed here',
+          description: 'This businesscard is made for the company OK Rens. OBS. only the frontpage is displayed here',
           image: image5,
           tech: 'Illustrator, InDesign',
           category: 'businesscard'

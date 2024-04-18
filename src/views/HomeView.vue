@@ -1,17 +1,16 @@
 <template>
+
   <hero class="hero">
+    <div class="container py-10 ">
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <img src="../assets/navn.png" class="img-fluid" alt="...">
+        <h2 class="text-2xl font-bold py-5 text-center">Welcome to my portfolio</h2>
+        <a href="CV.pdf" download="CV.pdf" class="btn btn-primary">Download CV</a>
 
-<div class="container py-10 ">
-  
-    <div class="d-grid gap-2 col-6 mx-auto">
-      <img src="../assets/navn.png" class="img-fluid" alt="...">
-      <h2 class="text-2xl font-bold py-5 text-center">Welcome to my portfolio</h2>
-      <a href="./public/CV.pdf" download="CV.pdf" class="btn btn-primary">Download CV</a>
 
+      </div>
     </div>
-</div>
-
-</hero>
+  </hero>
 
   <section class="bg-green">
       <div class="link-container container py-6 flexbox ">
@@ -46,15 +45,18 @@
           </div>
       </div> 
   </section>
+
 </template>
+
 <script setup>
- 
+
 </script>
 <style scoped>
 
-.btn {
-  box-shadow: 0 0 5px #99a5a5;
-}
+  .btn {
+    box-shadow: 0 0 5px #fff;
+  }
+
   .hero {
     background-image: url('../assets/plante.jpg');
     background-size: cover;
@@ -64,27 +66,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #888;
     text-align: center;
   }
 
-  .hero-image {
-   position: relative;
-  }
-
-  .my-hero-img {
-    width: auto;
-    height: auto;
-    border-radius: 0%;
-    filter: grayscale(100%);
-    position: relative;
-    z-index: 1;
-    margin-top: -200px;
+  h2 {
+    color: #ffffff;
   }
 
  
   .bg-green{
     background-color: #1f2024;
+    box-shadow: 0 0 10px #004F4D;
   }
 
   .me-card {
@@ -95,18 +87,17 @@
   }
 
   .card-home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  text-align: center; 
-  align-content: center;
-  color: #d6eeed;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    align-content: center;
+    color: #ffffff;
     padding: 1rem;
     margin: 1rem;
     border-radius: 0px;
-    box-shadow: 0 0 5px #b0b8b7;
+    box-shadow: 0 0 5px #ffffff;
   }
 
   @media (max-width: 750px) {
@@ -121,6 +112,6 @@
       transform: none;
       margin-top: 20px;
     }
-}
+  }
 
 </style>

@@ -20,6 +20,7 @@ import FooterView from './components/FooterView.vue';
 <style lang="scss" scoped>
 * {
   background-color: #1f2024;
+  font-family: noto sans;
 }
 
 </style>

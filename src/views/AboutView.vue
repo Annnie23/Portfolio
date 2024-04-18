@@ -1,27 +1,30 @@
 <template>
+
   <div class="card">
   <div class="card-body">
   <div class="about">
+
     <h1>About Me</h1>
     <div class="profile">
       <img src="../assets/mig2.png" alt="Your Name">
-      <div class="bio">
-        <p>I am an energetic and ambitious person with a passion for digital design and media development. Dedicated to creating engaging and user-friendly digital platforms that are a delight to the eye.
+        <div class="bio">
+          <p>I am an energetic and ambitious person with a passion for digital design and media development. Dedicated to creating engaging and user-friendly digital platforms that are a delight to the eye.
           I combine my attention to detail and positivity to create meaningful and productive results that can be applied in the real world. Certified coach, and currently a student in multimedia design, with a keen interest in web development.</p>
-        <p>I specialize in customer service and communication, web development and multimedia design, administration and personnel management, teaching, and coaching.</p>
-      </div>
+          <p>I specialize in customer service and communication, web development and multimedia design, administration and personnel management, teaching, and coaching.</p>
+        </div>
     </div>
     
     <h2>Skills</h2>
-    <ul class="skills">
-      <li v-for="(skill, index) in skills" :key="index">{{ skill }}</li>
-    </ul>
+      <ul class="skills">
+        <li v-for="(skill, index) in skills" :key="index">{{ skill }}</li>
+      </ul>
     
     <h2>Projects</h2>
-    <ul class="projects">
-      <li v-for="(project, index) in projects" :key="index">{{ project }}</li>
-    </ul>
+      <ul class="projects">
+        <li v-for="(project, index) in projects" :key="index">{{ project }}</li>
+      </ul>
     
+    <br> 
     <h2>Experience</h2>
     <div class="experience">
       <div class="experience-item">
@@ -46,6 +49,7 @@
       </div>
     </div>
     
+    <br>
     <h2>Education</h2>
     <div class="education">
       <div class="education-item">
@@ -69,9 +73,11 @@
         <p>Horse-assisted therapy and coaching</p>
       </div>
     </div>
-  </div>
+
 </div>
 </div>
+</div>
+
 </template>
 
 <script>
@@ -89,45 +95,55 @@ export default {
 
 <style scoped>
 
-
 .bg-white {
-    background-color: #1f2024;
-  }
+  background-color: #1f2024;
+}
 
-  .card {
-    display: flex;
-    flex-direction: column;
-    color: #f4f4f4;  
-    padding: 1rem; 
-    border-radius: 0%;
-    border-color: none;
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;  
+  padding: 1rem; 
+  border-radius: 0%;
+  border-color: none;
+  box-shadow: 0 0 10px #004F4D;
+}
 
-  .about {
-    width: 100%;
-    padding: 1rem;
-    margin: 1rem auto;
-    box-shadow: 0 0 5px #99a5a5;
-  }
+.about {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem auto;
+  box-shadow: 0 0 5px #ffffff;
+}
 
-  .about h1 {
-    font-size: 2.5em; 
-    margin-bottom: 20px; 
-    color: #004f4d; 
-  }
+.about h1 {
+  font-size: 2.5em; 
+  margin-bottom: 20px; 
+  color: #004f4d; 
+}
 
-  .about h2 {
-    font-size: 2em; 
-    margin-top: 30px;
-    margin-bottom: 20px; 
-    color: #f4f4f4;
-  }
+.about h2 {
+  font-size: 2em; 
+  margin-top: 30px;
+  margin-bottom: 20px; 
+  color: #004f4d;
+  font-weight: 400;
+}
 
-  .about p, .about ul {
-    font-size: 1.2em; 
-    line-height: 1.5; 
-    color: #f4f4f4;
-  }
+.about h3 {
+  color: #004f4d;
+  font-size: 1.5em;
+}
+
+.about h4 {
+  color: #ffffff;
+}
+
+.about p, .about ul {
+  font-size: 1.2em; 
+  line-height: 1.5; 
+  color: #ffffff;
+}
 
 .profile {
   display: flex;
@@ -155,10 +171,14 @@ export default {
   padding: 5px 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  color: #fbfcfc;
-  box-shadow: 0 0 5px #bac0c0;
+  color: #ffffff;
+  box-shadow: 0 0 4px #ffffff;
   display: inline-block;
-  
+  transition: filter 0.3s ease-in-out;
+}
+
+.skills li:hover {
+    filter: drop-shadow(0 0 0.75rem #004f4d);
 }
 
 .projects {
@@ -172,14 +192,17 @@ export default {
   margin-right: 10px;
   margin-bottom: 10px;
   color: #fbfcfc;
-  box-shadow: 0 0 5px #bac0c0;
+  box-shadow: 0 0 4px #ffffff;
   display: inline-block;
-  
+  transition: filter 0.3s ease-in-out;
+}
+
+.projects li:hover {
+    filter: drop-shadow(0 0 0.75rem #004f4d);
 }
 
 .experience-item {
   margin-bottom: 20px;
-
 }
 
 .experience-item h3 {
@@ -192,9 +215,21 @@ export default {
 
 .education-item {
   margin-bottom: 20px;
-  
 }
 
+@media (max-width: 767px) {
+  .profile {
+    display: block;
+  }
+  .bio {
+    width: 100%;
+  }
+  .profile img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
 
 </style>
 

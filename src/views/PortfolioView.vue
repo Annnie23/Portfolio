@@ -1,36 +1,37 @@
 <template>
   <main>
     <div class="dropdown">
-  <button class="drop-btn btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-    Select Category
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <li><button class="dropdown-item" @click="selectedCategory = 'infographic'">Infographic</button></li>
-    <li><button class="dropdown-item" @click="selectedCategory = 'web'">Website</button></li>
-    <li><button class="dropdown-item" @click="selectedCategory = 'businesscard'">Businesscard</button></li>
-    <li><button class="dropdown-item" @click="selectedCategory = ''">All</button></li>
-  </ul>
-</div>
+      <button class="drop-btn btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Select Category
+      </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><button class="dropdown-item" @click="selectedCategory = 'infographic'">Infographic</button></li>
+          <li><button class="dropdown-item" @click="selectedCategory = 'web'">Website</button></li>
+          <li><button class="dropdown-item" @click="selectedCategory = 'businesscard'">Businesscard</button></li>
+          <li><button class="dropdown-item" @click="selectedCategory = ''">All</button></li>
+        </ul>
+    </div>
 
     <div class="portfolio-items">
-    <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem" class="card-pot">
+      <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem" class="card-pot">
         <h2>{{ portfolioItem.title }}</h2>
         <h3>Description: {{ portfolioItem.description }}</h3>
         <h3>Tech: {{ portfolioItem.tech }}</h3>
         <!-- <p :class="portfolioItem.category"> Kategori: {{ portfolioItem.category }}</p> -->
-  
-        <div v-if="portfolioItem.link">
+          <div v-if="portfolioItem.link">
+          <p>
           <a :href="portfolioItem.link">See it live here!</a>
-        </div>
-        <div v-else>
+          </p>
+          </div>
+          <div v-else>
   
-        </div>
-        <img :src="portfolioItem.image" alt="">
-        
+          </div>
+          <img :src="portfolioItem.image" alt=""> 
       </div>
     </div>
-    </main>
-  </template>
+
+  </main>
+</template>
   
   <script setup>
   
@@ -52,9 +53,10 @@
   
   </script>
   
-  <style lang="scss">
+  <style lang="scss" scoped>
 
-.dropdown-item{
+
+  .dropdown-item{
   // padding: 0.8em 1.75em;
   background-color: #004f4d;
   border-radius: 0px;
@@ -73,11 +75,12 @@
     color: #f1f1f1;
     
   }
-}
-.dropdown-menu{
-background-color: transparent;
-border: none;
-}
+  }
+
+  .dropdown-menu{
+  background-color: transparent;
+  border: none;
+  }
 
   .portfolio-items {
     display: flex;
@@ -94,21 +97,27 @@ border: none;
   }
 
   h2{
-    color: #c1d3d2;
+    color: #ffffff;
     font-size: larger;
     margin-bottom: 10px;
   }
   h3{
-    color: #c0d1d1;
+    color: #888888;
     font-size: large;
     margin-bottom: 10px;
   }
+
+  p{
+    color: #004f4d;
+    padding-bottom: 4px;
+    
+  }
   
   button {
-    color: #fbfcfc;
+    color: #ffffff;
     padding: 1rem;
     margin: 1rem;
-    box-shadow: 0 0 5px #bac0c0;
+    box-shadow: 0 0 5px #ffffff;
     display: inline-block;
   }
  
